@@ -716,6 +716,7 @@ body:after {
     color: #fff;
     border-color: #000 !important; }
 
+
 /* Isotope Transitions
 ------------------------------- */
 .isotope,
@@ -743,6 +744,10 @@ body:after {
   -o-transition-property: transform, opacity;
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform; }
+
+  .item.brand.col-6.col-sm-6.col-md-6.col-lg-4.col-xl-4.mb-4.btn.btn-info {
+width: 33%;
+}
 
 /* responsive media queries */
 .item {
@@ -897,6 +902,7 @@ body:after {
 
 .footer {
   font-size: .9rem; }
+
   .footer .footer-title {
     font-size: 1.1rem;
     margin-bottom: 30px; }
